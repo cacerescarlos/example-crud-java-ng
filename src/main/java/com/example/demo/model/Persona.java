@@ -28,6 +28,9 @@ public class Persona {
 	@JoinColumn(name="id_estado")
 	private Estado estado;
 	
+	public Persona() {
+		
+	}
 	
 	public Persona(String nombre, String apellido, int edad, Pais pais, Estado estado) {
 		super();

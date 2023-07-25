@@ -18,6 +18,9 @@ public class Estado {
 	@ManyToOne
 	@JoinColumn(name="id_pais")
 	private Pais pais;
+
+	public Estado() {		
+	}
 	
 	public Estado(Pais pais, String nombre) {
 		super();
