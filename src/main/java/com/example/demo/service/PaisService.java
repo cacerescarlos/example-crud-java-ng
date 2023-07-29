@@ -199,4 +199,13 @@ public class PaisService implements PaisRepository{
 		return null;
 	}
 
+	public List<Object> procGetFindAll() {
+		List<Object> resp = paisRepository.procGetFindAll(); 
+		return resp;
+	}
+
+	public int getTotalPaises() {
+		return paisRepository.getTotalPaises();
+	}
+
 }
